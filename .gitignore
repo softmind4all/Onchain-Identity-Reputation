@@ -5,3 +5,7 @@ node_modules/
 dist/
 .soroban/
 *.wasm
+
+# Next.js build output
+app/.next/
+sdk/dist/
