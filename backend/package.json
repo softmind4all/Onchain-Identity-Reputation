@@ -1,0 +1,20 @@
+{
+  "name": "@stellar-identity/oracle",
+  "version": "0.1.0",
+  "description": "Oracle service: reads Stellar Horizon API and submits reputation signals on-chain",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node --experimental-vm-modules node_modules/.bin/jest --forceExit"
+  },
+  "dependencies": {
+    "express": "4.19.2",
+    "node-fetch": "3.3.2"
+  },
+  "devDependencies": {
+    "jest": "29.7.0",
+    "supertest": "7.0.0"
+  },
+  "type": "module"
+}

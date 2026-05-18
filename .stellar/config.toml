@@ -1,0 +1,8 @@
+[network]
+name = "testnet"
+rpc-url = "https://soroban-testnet.stellar.org"
+network-passphrase = "Test SDF Network ; September 2015"
+
+[network.mainnet]
+rpc-url = "https://soroban-mainnet.stellar.org"
+network-passphrase = "Public Global Stellar Network ; September 2015"
